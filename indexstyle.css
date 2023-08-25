@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color:#555;
+}
+nav{
+    display: flex;
+    width:100%;
+    min-height:10vh;
+    /* position: absolute; */
+   background:#000;
+   height:auto;
+   padding:15px 0;
+}
+nav .logo{
+    width:20%;
+   padding:15px;
+   font-size:1.5em;
+   color:#4db004; 
+}
+.menu{
+    width:80%;
+    line-height:80px;
+}
+.menu-list{
+    width: 100%;
+    display: flex;
+    float:right;
+}
+.menu-list li{
+    padding-left:20px;
+    font-size:1.2em;
+    list-style: none;
+    font-weight:700;
+    text-transform: capitalize;
+    margin: 0 15px;
+}
+.menu-list li a {
+    text-decoration:none;
+    color:#fff;
+}
+.content-slider{
+    width:100%;
+    margin:10px 250px;
+    /* position: absolute; */
+    display: flex;
+}
+.content-slider .imgbx{
+    width: 100%;
+    bottom:-50px;
+    justify-content: center;
+    align-items: center;
+    /* height: 300px; */
+    /* object-fit: cover; */
+    position: absolute;
+    display: flex;
+}
+.content-slider .imgbx .imgbx-title{
+    display:flex;
+    left:2px;
+    bottom:200px;
+    padding:5px 5px;
+    color:#fff;
+    font-weight: 700;
+    font-size:35px;
+    background-color: #000;
+    /* border:1px solid #fff; */
+    /* background-color: #555;  */
+    position: absolute;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+
+}
+.content-slider .imgbx .content-pera{
+    width: 570px;
+    left:15px;
+    bottom:150px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    position: absolute;
+    font-size: 25px;
+    display: flex;
+    color:white;
+    opacity: 0.5;
+    background-color: #000;
+    transition: all 0.5s ease-in-out;
+
+}
+.content-slider .imgbx .watch-btn{
+    margin-bottom:25px;
+    margin-left: 150px;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+
+}
+.content-slider .imgbx .watch-btn p{
+    float: right;
+    /* position: absolute; */
+    font-size: 30px;
+    display: flex;
+    color:white;
+    /* text-align: center; */
+    width:230px;
+    padding:0 25px; 
+    margin-left:15px;
+    margin-bottom: 70px;
+    background-color: #000;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+
+    /* border: 1px solid white; */
+}
+.content-slider .imgbx .watch-btn i{
+    /* width: 20px; */
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    color: yellow;
+    /* padding:5px; */
+    margin:0;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+
+    
+}
+.content-slider .imgbx .imgbx-title:hover,
+.content-slider .imgbx .watch-btn i:hover,
+.content-slider .imgbx .watch-btn p:hover,
+.content-slider .imgbx .content-pera:hover,
+.content-slider .imgbx .star:hover,
+.content-slider .imgbx .movie-tags a
+{
+    opacity: 1;
+  cursor: pointer;
+}
+.content-slider .imgbx img{
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    /* position: absolute; */
+    /* margin:0 50px; */
+
+}
+.content-slider .imgbx .star{
+    width: 50%;
+    /* float: left; */
+    left:10px;
+    /* border: 1px solid white; */
+    /* justify-content: center; */
+    /* display: flex; */
+    /* position: absolute; */
+    color:yellow;
+    font-size: 25px;
+    /* top:30px; */
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+    
+}
+.content-slider .imgbx .movie-tags {
+   position: absolute;
+   color:white;
+   display: flex;
+}
+.content-slider .imgbx .movie-tags a{
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 2px 15px;
+    background-color: #000;
+    color:white;
+    margin: 0 15px;
+    font-size: 25px;
+    font-weight:700;
+    opacity: 0.5;
+   transition: all 0.5 ease-in-out;
+
+}
+.content-slider .imgbx .watch-btn{
+    display:flex;
+    width: 100%;
+    
+}
+
