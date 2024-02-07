@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: auto;
+            background: #000;
+        }
+        .main-box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            background: #000;
+            height: 50vh;
+        }
+        .box{
+            width: 400px;
+            align-items: center;
+            border: 1px solid white;
+            margin: 10px;
+            color: white;
+            background: gray;
+            box-shadow: -1px 10px 15px gray;
+        }
+        .img-box img{
+            width: 100%;
+            object-fit: contain;
+            object-position: center;
+            background-position: center;
+            text-align: center;
+        }
+        .contain-box{
+            width: 100%;
+            font-size: 20px;
+        }
+        .contain-box .question{
+            text-align: center;
+           margin: 15px;
+           color: darkorange;
+        }
+        .contain-box p{
+            text-align: center;
+            padding: 0 10px;
+        }
+        .contain-box button{
+            width: 100px;
+            height: 50px;
+            padding: 10px;
+            margin:15px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+           align-items: left;
+           background: darkorange;
+           font-size: 20px;
+           color: white;
+           font-weight: bold;
+           text-transform: capitalize;
+        }
+        .contain-box button:active{
+            transform: translate(5px,2px);
+        }
+    </style>
+</head>
+<body>
+      <div class="container">
+        <div class="main-box">
+            <div class="box">
+                <div class="img-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzSYhJDz1uIOjWSJ7LzO5rX42lpkZTnIE63h5XFOup766L12SDMFGViegp1qjolbuu9Ek&usqp=CAU" alt="">
+                </div>
+                <div class="contain-box">
+                    <div class="question">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fuga quae, sit iusto voluptatem aut repellat eaque distinctio harum voluptatibus ipsam accusamus ut praesentium ex, fugit illum accusantium et recusandae!</p>
+                    <button>click</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="img-box">
+                    <img src="https://images.jdmagicbox.com/quickquotes/images_main/dell-laptops-27-10-2022-3-272309992-xb49eysb.png" alt="">
+                </div>
+                <div class="contain-box">
+                    <div class="question">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fuga quae, sit iusto voluptatem aut repellat eaque distinctio harum voluptatibus ipsam accusamus ut praesentium ex, fugit illum accusantium et recusandae!</p>
+                    <button>click</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzSYhJDz1uIOjWSJ7LzO5rX42lpkZTnIE63h5XFOup766L12SDMFGViegp1qjolbuu9Ek&usqp=CAU" alt="">
+                </div>
+                <div class="contain-box">
+                    <div class="question">
+                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fuga quae, sit iusto voluptatem aut repellat eaque distinctio harum voluptatibus ipsam accusamus ut praesentium ex, fugit illum accusantium et recusandae!</p>
+                    <button>click</button>
+                </div>
+            </div>
+
+        </div>
+      </div>
+</body>
+</html>
